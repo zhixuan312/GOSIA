@@ -106,6 +106,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     intent = new Intent(LoginActivity.this, DriverMainActivity.class);
                 }
+
                 startActivity(intent);
                 finishAffinity();
             }
