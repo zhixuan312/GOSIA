@@ -1,0 +1,36 @@
+{
+  "favouriteList": [
+    {
+      "favouriteId": 0,
+      "title": "Home",
+      "address": "Blk 105 Henderson Crescent, Singapore 150105",
+      "lat":1.345568,
+      "lng":103.966484,
+      "addToMain":1
+    },
+    {
+      "favouriteId": 1,
+      "title": "Work",
+      "address": "720 Upper Changi Road East, Singapore 486852",
+      "lat":1.289948,
+      "lng":103.822637,
+      "addToMain":0
+    },
+    {
+      "favouriteId": 2,
+      "title": "Prince George's Park Residence, NUS",
+      "address": "123 South Bouna Vista Road, Singapore 123123",
+      "lat":1.289948,
+      "lng":103.822637,
+      "addToMain":1
+    },
+    {
+      "favouriteId": 3,
+      "title": "OCBC",
+      "address": "456 Airport Road, Singapore 123456 ",
+      "lat":1.289948,
+      "lng":103.822637,
+      "addToMain":1
+    }
+  ]
+}

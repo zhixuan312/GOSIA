@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_past"
+        android:icon="@drawable/ic_flight_land_text_color_24dp"
+        android:title="Past" />
+
+    <item
+        android:id="@+id/navigation_upcoming"
+        android:icon="@drawable/ic_flight_takeoff_text_color_24dp"
+        android:title="Upcoming" />
+
+</menu>

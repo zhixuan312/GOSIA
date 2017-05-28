@@ -1,0 +1,131 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ride_request_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <CheckBox
+            android:id="@+id/ride_request_card_view_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/YellowCheck" />
+
+        <ImageView
+            android:id="@+id/ride_request_card_view_profile_image"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            card_view:srcCompat="@drawable/ic_settings_text_color_24dp" />
+
+        <RelativeLayout
+            android:id="@+id/ride_request_card_view_relative1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="35dp"
+            android:layout_toRightOf="@id/ride_request_card_view_profile_image">
+
+            <TextView
+                android:id="@+id/ride_request_card_view_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Lam Minghui"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/textColor"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ride_request_card_view_relative2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/ride_request_card_view_profile_image">
+
+            <ImageView
+                android:id="@+id/ride_request_card_view_time_title"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19dp"
+                android:src="@drawable/ic_timer_text_color_light_24dp" />
+
+            <TextView
+                android:id="@+id/ride_request_card_view_time_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="64dp"
+                android:text="24 Apr 2017, 07:20 AM"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/textColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ride_request_card_view_relative3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ride_request_card_view_relative2"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/ride_request_card_view_from_title"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:src="@drawable/ic_place_text_color_light_24dp" />
+
+            <TextView
+                android:id="@+id/ride_request_card_view_from_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="64dp"
+                android:text="324 Raffles Road, Singapore 232324"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/textColor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ride_request_card_view_relative4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ride_request_card_view_relative3"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/ride_request_card_view_to_title"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19dp"
+                android:src="@drawable/ic_pin_drop_yellow_24dp" />
+
+            <TextView
+                android:id="@+id/ride_request_card_view_to_body"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="64dp"
+                android:text="123 Queensway Ave, Singapore 232123"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/textColor" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

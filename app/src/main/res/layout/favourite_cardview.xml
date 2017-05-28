@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/activity_horizontal_margin">
+
+    <ImageView
+        android:id="@+id/favourite_icon_image"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:src="@drawable/ic_star_text_color_light_24dp" />
+
+    <LinearLayout
+        android:id="@+id/favourite_linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="50dp"
+        android:layout_toRightOf="@id/favourite_icon_image"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/favourite_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Work"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/favourite_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="25 Airline Rd, Changi Airport Singapore (SIN), Singapore 819829"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/textColor" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/favourite_edit"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_more_horiz_text_color_light_24dp"/>
+
+    <View
+        android:id="@+id/favourite_divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/favourite_linear1"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@color/divider" />
+</android.support.percent.PercentRelativeLayout>
