@@ -111,7 +111,6 @@ public class LoginActivity extends AppCompatActivity {
                 finishAffinity();
             }
         });
-
     }
 
     private void attemptLogin() {
