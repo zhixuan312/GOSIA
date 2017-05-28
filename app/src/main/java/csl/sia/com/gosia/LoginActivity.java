@@ -135,9 +135,6 @@ public class LoginActivity extends AppCompatActivity {
             cancel = true;
         }
 
-
-
-
         // Check for a valid email address.
         if (TextUtils.isEmpty(email)) {
             login_edit_email.setError(getString(R.string.error_field_required));
