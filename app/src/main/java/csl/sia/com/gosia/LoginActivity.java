@@ -91,7 +91,6 @@ public class LoginActivity extends AppCompatActivity {
                 }
             }
         });
-
         login_edit_email = (EditText) findViewById(R.id.login_edit_email);
         login_edit_password = (EditText) findViewById(R.id.login_edit_password);
 
